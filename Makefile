@@ -1,4 +1,4 @@
-IMAGE_NAME = "grengojbo/beego"
+IMAGE_NAME=grengojbo/beego
 
 .PHONY: all clean run build push pull shell
 
@@ -14,10 +14,10 @@ run:
 	@docker run --rm -i -t ${IMAGE_NAME} /bin/bash
 
 push:
-	@docker push ${IMAGE}
+	@docker push ${IMAGE_NAME}
 
 pull:
-	@docker pull ${IMAGE}
+	@docker pull ${IMAGE_NAME}
 
 build:
 	@docker build -t ${IMAGE_NAME} .
