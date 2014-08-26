@@ -1,6 +1,6 @@
 # Golang base host
 #
-# VERSION               0.0.7
+# VERSION               0.1.0
 
 FROM  grengojbo/go:latest
 MAINTAINER Oleg Dolya "oleg.dolya@gmail.com"
