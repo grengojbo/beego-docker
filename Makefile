@@ -8,7 +8,7 @@ clean:
 	docker rmi ${IMAGE_NAME}
 
 shell:
-	docker run -it --rm ${IMAGE} /bin/bash
+	docker run -it --rm ${IMAGE_NAME} /bin/bash
 
 run:
 	@docker run --rm -i -t ${IMAGE_NAME} /bin/bash
